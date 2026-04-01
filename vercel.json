@@ -1,0 +1,12 @@
+{
+  "framework": "create-react-app",
+  "buildCommand": "npx expo export -p web",
+  "outputDirectory": "dist",
+  "devCommand": "npx expo start --web",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
